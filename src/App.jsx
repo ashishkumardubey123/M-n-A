@@ -1,12 +1,15 @@
-import React from "react"
-import Navbar from "./Component/Navbar"
+import React from "react";
+import Navbar from "./Component/Navbar";
+// import About from "./Component/About";
+import Hero from "./Component/Hero";
+
 function App() {
-
-
   return (
-    
-   <Navbar/>
-  )
+    <>
+      <Navbar />
+      <Hero />
+    </>
+  );
 }
 
-export default App
+export default App;
