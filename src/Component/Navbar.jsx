@@ -26,10 +26,10 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`  z-[100] start-0  justify-center  shadow-s  bg-transparent   md:inset-x-0  ${
+      className={`  z-[100] start-0  justify-center  shadow-s     md:inset-x-0  ${
         isSticky
-          ? "sticky  bg-[#dfecef] border-b shadow-sm   top-0 md:-translate-y-4 md:w-3/4 lg:w-full mx-auto z-[100] transition-all duration-200"
-          : "    transition-all duration-300 w-full z-[100] "
+          ? "sticky  bg-[#dfecef] border-b shadow-sm   top-0 md:-translate-y-4 md:w-3/4 lg:w-full mx-auto z-[100] transition-all duration-500"
+          : "    transition-all duration-500 w-full z-[100] "
       }  shadow-4xl `}
     >
       <div className="  justify-between px-4 mx-auto lg:max-w-7xl items-center	 md:items-center md:flex md:px-8">
