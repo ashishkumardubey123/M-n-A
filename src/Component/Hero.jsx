@@ -45,7 +45,7 @@ const Hero = () => {
 
       <div className="mt-8 lg:mt-0 lg:ml-8 relative">
       <div className="  border-8 border-yellow-400 rounded">
-          <iframe
+      <iframe
             loading="lazy"
             className="rounded-lg"
               height="400"
