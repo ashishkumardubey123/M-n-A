@@ -5,6 +5,7 @@ import Hero from "./Component/Hero";
 import Herrofuttor from "./Component/Herrofuttor";
 import {Cards} from "./Component/Cards";
 import ShortFormVideoExamples from "./Component/Videos";
+import Videofoot from "./Component/Videofoot";
 function App() {
   return (
     <>
@@ -13,6 +14,7 @@ function App() {
       <Herrofuttor />
       <Cards />
       <ShortFormVideoExamples/>
+      <Videofoot/>
     </>
   );
 }
